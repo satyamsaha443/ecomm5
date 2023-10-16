@@ -1,0 +1,70 @@
+.category-previews,
+.category-previews1,
+.category-previews2 {
+  border-radius: var(--br-xs);
+  width: 15.19rem;
+  height: 22.69rem;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: var(--padding-5xl);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.category-previews {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    background-image: url(./assets/mens.jpeg);
+}
+.category-previews1 {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  background-image: url(./assets/womens.jpeg);
+}
+.category-previews2 {
+  background-image: url(./assets/electronics.jpeg);
+}
+.category-previews2,
+.category-previews3,
+.row-14 {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+.category-previews3 {
+  border-radius: var(--br-xs);
+  width: 15.19rem;
+  height: 22.69rem;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: var(--padding-5xl);
+  background-image: url(./assets/jewelwey.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.row-14 {
+  width: 72.94rem;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-base) 0;
+  gap: var(--gap-11xl);
+  font-size: var(--body-size);
+  color: var(--white);
+}
+.shop-by-category {
+  position: absolute;
+  top: 47.63rem;
+  left: 8.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  font-size: var(--h3-size);
+  color: var(--dark);
+}
